@@ -1,0 +1,12 @@
+footer{
+    background-image: linear-gradient(to left, rgba(39, 35, 35, 0), rgb(15, 15, 15));
+    padding: 15px 0;
+    text-align: center;
+    color: white;
+    font-size: 0.7em;
+}
+.red-text{
+    color: rgb(146, 23, 23);
+    font-size: 1em;
+    font-weight: 600;
+}

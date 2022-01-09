@@ -9,11 +9,11 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { RestaurantsComponent } from './restaurants/restaurants.component';
 import { NavbarComponent } from './core/navbar/navbar.component';
 import { HomeComponent } from './home/home.component';
-import { AboutComponent } from './about/about.component';
 import { FooterComponent } from './core/footer/footer.component';
 import { RestaurantItemComponent } from './restaurants/restaurant-item/restaurant-item.component';
 import { SideBarComponent } from './restaurants/side-bar/side-bar.component';
 import { PaginationComponent } from './restaurants/pagination/pagination.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -22,11 +22,11 @@ import { PaginationComponent } from './restaurants/pagination/pagination.compone
     RestaurantsComponent,
          NavbarComponent,
          HomeComponent,
-         AboutComponent,
          FooterComponent,
          RestaurantItemComponent,
          SideBarComponent,
-         PaginationComponent
+         PaginationComponent,
+         ContactComponent
   ],
   imports: [
     BrowserModule,
