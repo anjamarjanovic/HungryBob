@@ -1,0 +1,47 @@
+.contact{
+    height: 100vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.507), rgba(0, 0, 0, 0.39)), url(/assets/images/gl3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    background-color: rgba(255, 255, 255, 0.719);
+    width: 40%;
+  
+
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+    padding: 15px 70px;
+}
+.form-group input,
+.form-group select{
+    flex-basis: 100%;
+    padding: 10px;
+}
+label{
+    padding-bottom: 6px;
+}
+.btn{
+    display: inline-block;
+    width: 120px;
+    padding: 5px 9px;
+    background-color: rgb(146, 23, 23);
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 0.9em;
+    margin-top: 10px;
+    opacity: 1;
+    transition: 0.3s;
+  }
+
+.btn:hover{
+    opacity: 0.6
+}

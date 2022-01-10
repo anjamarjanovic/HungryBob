@@ -13,7 +13,7 @@ import { FooterComponent } from './core/footer/footer.component';
 import { RestaurantItemComponent } from './restaurants/restaurant-item/restaurant-item.component';
 import { SideBarComponent } from './restaurants/side-bar/side-bar.component';
 import { PaginationComponent } from './restaurants/pagination/pagination.component';
-import { ContactComponent } from './contact/contact.component';
+import { JoinComponent } from './join/join.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +26,7 @@ import { ContactComponent } from './contact/contact.component';
          RestaurantItemComponent,
          SideBarComponent,
          PaginationComponent,
-         ContactComponent
+         JoinComponent
   ],
   imports: [
     BrowserModule,
