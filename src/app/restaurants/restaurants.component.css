@@ -1,18 +1,43 @@
+.header-restaurants{
+    width: 100%;
+    height: 60vh;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.507), rgba(0, 0, 0, 0.39)), 
+    url(/assets/images/gl8.jpg);
+   background-position: bottom;
+   background-size: cover;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+h1{
+    font-size: 5em;
+    color: white;
+    font-weight: lighter;
+}
+
 .restaurants-section{
-    background-color: rgb(255, 255, 255);
+   background-color: white;
     color: rgb(0, 0, 0);
     display: flex;
-    padding: 75px 30px;
+    padding: 75px 50px;
     
 }
 .restaurants{
-    width: 60%;
+  width: 80%;
+  padding: 0 50px;
+}
+.side{
+    width: 20%;
 }
 .filter{
     display: flex;
+    padding-bottom: 20px;
+    justify-content: space-around;
 
 }
+
 .restaurants-list{
     display: flex;
     flex-wrap: wrap;
+    
 }
