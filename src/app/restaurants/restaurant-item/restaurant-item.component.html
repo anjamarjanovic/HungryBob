@@ -1,8 +1,8 @@
 <div class="card">
     <h2>{{restaurant.name}}</h2>
     <p>{{restaurant.description}}</p>
-    <p>Rating:0</p>
-    <p>Price:0</p>
+    <p>Rating: <app-rating [grade]="restaurant.rating" [fullIcon]="'star-full.png'" [emptyIcon]="'star-empty.png'"></app-rating></p>
+    <p>Price: <app-rating [grade]="restaurant.price" [fullIcon]="'coin-full.png'" [emptyIcon]="'coin-empty.png'"></app-rating></p>
       
 </div>
 
