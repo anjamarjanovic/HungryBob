@@ -15,6 +15,7 @@ import { SideBarComponent } from './restaurants/side-bar/side-bar.component';
 import { PaginationComponent } from './restaurants/pagination/pagination.component';
 import { JoinComponent } from './join/join.component';
 import { RatingComponent } from './restaurants/restaurant-item/rating/rating.component';
+import { MenuComponent } from './restaurants/menu/menu.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { RatingComponent } from './restaurants/restaurant-item/rating/rating.com
          SideBarComponent,
          PaginationComponent,
          JoinComponent,
-         RatingComponent
+         RatingComponent,
+         MenuComponent
   ],
   imports: [
     BrowserModule,

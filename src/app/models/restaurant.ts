@@ -7,7 +7,7 @@ export class Restaurant{
     description: string;
     location: string;
     price: number;
-    days:string; 
+    days:DayList; 
     rating:number;
 
 constructor(obj?:any){
@@ -17,7 +17,7 @@ constructor(obj?:any){
         this._id = obj && obj._id || 0;
         this.location= obj && obj.location|| "";
         this.price = obj && obj.price || 0;
-        this.days= obj && obj.days && new DayList(obj.days) || new DayList();
+        this.days= obj  && new DayList(obj.days) || new DayList();
         this.rating = obj && obj.rating || 0;
 }
 }

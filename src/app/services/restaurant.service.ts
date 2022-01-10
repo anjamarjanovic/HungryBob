@@ -1,3 +1,4 @@
+import { MenuList } from './../models/manuList';
 import { HttpClient, HttpParams } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
@@ -29,6 +30,11 @@ export class RestaurantService {
 
     return this.http.get(baseUrl, queryParams).pipe(map((data:any)=>{
       return new RestaurantList(data);
+    }))
+  }
+  getMenus(restId:number):Observable<MenuList>{
+    return this.http.get(`${baseUrl}/${restId}/menus`).pipe(map((data:any)=>{
+      return new MenuList(data)
     }))
   }
 }

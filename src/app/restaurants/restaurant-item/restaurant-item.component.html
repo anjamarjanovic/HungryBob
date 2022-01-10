@@ -3,6 +3,6 @@
     <p>{{restaurant.description}}</p>
     <p>Rating: <app-rating [grade]="restaurant.rating" [fullIcon]="'star-full.png'" [emptyIcon]="'star-empty.png'"></app-rating></p>
     <p>Price: <app-rating [grade]="restaurant.price" [fullIcon]="'coin-full.png'" [emptyIcon]="'coin-empty.png'"></app-rating></p>
-      
+     <a (click)="openMenu()" class="btn">More details...</a> 
 </div>
 
