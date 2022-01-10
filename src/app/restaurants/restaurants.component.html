@@ -1,3 +1,37 @@
+<section class="restaurants-section">
+<div class="side">
+    <app-side-bar></app-side-bar>
+</div>
+<div class="restaurants">
+    <div class="filter">
+        <app-pagination [page]="params.page" [pageSize]="params.pageSize" [collectionSize]="restaurantList.count" (pageChanged)="onPageChanged($event)"></app-pagination>
+        <form class="form-inline">
+            <label for=" pricerange"  class=" text-left">Price Range: </label>
+            <input type="number" [(ngModel)]="params.filter.priceFrom" (input)= "getAllRest()" class="form-control">  
+            <input type="number" [(ngModel)]="params.filter.priceTo" (input)= "getAllRest()" class="form-control">        
+        </form>
+    </div>
+    <div class="restaurants-list">
+        <div class="restaurant-item" *ngFor="let restaurant of restaurantList.results">
+            <app-restaurant-item [restaurant]= "restaurant"></app-restaurant-item>
+        </div>
+    </div>
+</div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
 <div class="row">
 <div class="col-3">
     <app-side-bar></app-side-bar>
@@ -30,4 +64,4 @@
 </div>
 </div>
 </div>
-
+-->

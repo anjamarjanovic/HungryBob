@@ -1,0 +1,18 @@
+.restaurants-section{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    display: flex;
+    padding: 75px 30px;
+    
+}
+.restaurants{
+    width: 60%;
+}
+.filter{
+    display: flex;
+
+}
+.restaurants-list{
+    display: flex;
+    flex-wrap: wrap;
+}

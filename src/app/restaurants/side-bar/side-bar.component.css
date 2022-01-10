@@ -1,0 +1,15 @@
+.navbar{
+    border: 1px solid white;
+}
+.nav-link{
+    color: white;
+    padding: 10px;
+    font-size: 1.3em;
+}
+.nav-link:hover{
+    color: red;
+}
+h5{
+    color: white;
+    margin-bottom:10px;
+}
