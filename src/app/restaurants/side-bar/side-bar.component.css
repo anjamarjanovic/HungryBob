@@ -9,6 +9,11 @@
 }
 .nav-link:hover{
     color: red;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+
 }
 h5{
     color: rgb(230, 13, 13);
@@ -16,4 +21,14 @@ h5{
     padding: 20px;
     font-size: 1.5em;
 
+}
+@media only screen and (max-width: 600px){
+   
+    .nav-link{
+        font-size: 1em;
+        
+    }
+    h5{
+        padding: 5px;
+    }
 }

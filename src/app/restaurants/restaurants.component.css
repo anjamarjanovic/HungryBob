@@ -41,3 +41,25 @@ h1{
     flex-wrap: wrap;
     
 }
+@media only screen and (max-width: 600px){
+    .restaurants-section{
+       flex-direction: column;
+        padding: 20px 40px;
+   } 
+    h1{
+        font-size: 3em;
+    }
+    .side{
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    .restaurants{
+        padding: 0;
+    }
+    .filter{
+        flex-direction: column;
+        justify-content: center;
+    }
+  
+  
+}

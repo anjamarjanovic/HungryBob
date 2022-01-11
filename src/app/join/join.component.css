@@ -12,20 +12,25 @@
 }
 form{
     background-color: rgba(255, 255, 255, 0.719);
-    width: 40%;
+    width: 500px;
+    height: 500px;
+    margin-top: 50px;
+    padding: 30px;
+   
   
 
-}
-.form-group{
-    display: flex;
-    flex-direction: column;
-    padding: 15px 70px;
 }
 .form-group input,
 .form-group select{
     flex-basis: 100%;
     padding: 10px;
 }
+.form-group{
+    display: flex;
+    flex-direction: column;
+    
+}
+
 label{
     padding-bottom: 6px;
 }
@@ -37,11 +42,20 @@ label{
     border-radius: 10px;
     color: rgb(255, 255, 255);
     font-size: 0.9em;
-    margin-top: 10px;
+    margin: 30px auto;
     opacity: 1;
     transition: 0.3s;
   }
 
 .btn:hover{
     opacity: 0.6
+}
+@media only screen and (max-width: 600px){
+    form{
+        width: 100%;
+       padding-top: 40px;
+       margin-top:0;
+       
+    }
+    
 }

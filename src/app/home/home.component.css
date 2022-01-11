@@ -7,6 +7,10 @@ h2{
 h4{
     margin-bottom: 30px;
 }
+h5{
+    margin:30px;
+ 
+}
 
 header{
     width: 100%;
@@ -56,12 +60,11 @@ header video{
 }
 .box-left{
     width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     text-align: center;
-    padding: 0 80px;
+    padding: 0 20px;
+}
+.box-left p{
+    font-size: 1em;
 }
 .box-right{
     width: 50%;
@@ -82,6 +85,7 @@ header video{
     background-color: whitesmoke;
     display: flex;
     flex-wrap: wrap;
+    padding: 50px 0;
 }
 .image{
     position: relative;
@@ -118,16 +122,16 @@ transition: .5s ease;
     opacity: 1;
   }
 
-
 .contact-section{
     height: 60vh;
-    padding: 50px 75px;
+    padding: 50px 50px;
     background-color: whitesmoke;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     color: rgb(28, 68, 27);
+    text-align: center;
 }
 
 .btn{
@@ -146,3 +150,37 @@ transition: .5s ease;
 .btn:hover{
     opacity: 0.6
 }
+
+@media only screen and (max-width: 600px){
+   .about{
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+   }
+   .box-left{
+       width: 100%;
+   }
+   .box-right{
+       width: 100%;
+   }
+   .list{
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       width: 100%;
+   }
+   .item{
+       width:100%
+   }
+   .galery{
+       flex-direction: column;
+    
+   }
+   .image{
+       width: 100%;
+   }
+   .image img{
+       width: 100%;
+   }
+   
+    }
